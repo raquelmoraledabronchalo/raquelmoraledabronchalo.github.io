@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 
+    <title>Code Like a Girl - Madrid 2019</title>
+    <!-- Referencia a la hoja de estilos CSS     -->  
+    
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Referencia al archivo de funciones javascript
+    <script type="application/javascript" src="js/functions.js"></script>
+     -->
+     <h1> PAGINA WEB </h1>
+     <h2> Minions </h2>
+     <h3> Raquel </h3>
+
+     <img src="img/minions.jpg" id="minion" >
+     <h4>fin </h4>
+     <div id= "pepito" > ...........</div>
+    <div id= "juan" > ...........</div>
+
+
+     <script>
+    
+     var respuesta;
+     var seleccion; 
+
+    seleccion = confirm ( "¿Eres mayor de edad?");
+
+    if (seleccion== true) {
+     respuesta = "Eres mayor de edad";
+
+    } else {
+    respuesta= "No eres mayor de edad, no puedes entrar"; 
+    }
+
+     document.getElementById("pepito").innerHTML = respuesta;
+</script>
+
+
+<script>
+        var respuesta;
+        var person = prompt ("Como te llamas?", "Pepito");
+        if (person == null || person == "")
+        {
+        respuesta = "El usuario pulso CANCEL";
+        }
+        else
+        {
+        respuesta = "Hola " + person + ".Que tal te va la vida?"; 
+        }
+        document.getElementById("juan").innerHTML = respuesta;
+</script>
+
+
+<script>
+        window.open("https://www.w3schools.com",
+        "_blank",
+        "toolbar=yes,scrollbars=yes,resizable=yes,top=500s,left=500,width=400,height=400");
+
+  </script>
+   
+
+   <div class = "conteiner">
+       <div class= "row" >
+           <div class= "col-lg-12">
+           </div>
+       </div>
+
+
+       <div class = "row" >
+           <div class= "col-lg-4" >  </div> 
+           <div class= "col-lg-4">  </div>
+           <div class= "col-lg-4" >  </div>
+       </div>
+   </div>
+
+
+
+
+
+    
+         
+</body>
+</html>

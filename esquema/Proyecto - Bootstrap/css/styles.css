@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    color: black;
+    font-family: inherit;
+     border:2px solid black;
+}
+
+
+#im{
+
+margin-left: auto;
+margin-right: auto;
+  
+}
+
+#insta{
+    width: 15%;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+h4 {
+    text-align: center;
+
+}
+
+#tallas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#precios {
+    display: block;
+margin-left: auto;
+margin-right: auto;
+}
